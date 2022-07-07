@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Porter",
+      "author": "Rowling",
+      "cost": 300
+    },
+    {
+      "id": 2,
+      "title": "Mental Math",
+      "author": "Kasun",
+      "cost": 200
+    },
+    {
+      "title": "Educational Journey",
+      "author": "Author",
+      "cost": "200",
+      "id": 5
+    },
+    {
+      "title": "Test Application Book",
+      "author": "windows",
+      "cost": "200",
+      "id": 7
+    },
+    {
+      "title": "Success People ",
+      "author": "Kasun Madusanka",
+      "cost": "250",
+      "id": 8
+    }
+  ]
+}

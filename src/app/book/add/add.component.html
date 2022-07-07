@@ -1,0 +1,18 @@
+<h2>Add Book Details</h2>
+<form [formGroup]="form" (submit)="onSubmit()">
+  <div>
+    <label for="">Add Book Name</label>
+  </div>
+  <input type="text" formControlName="title" />
+  <div>
+    <label for="">Add Author</label>
+  </div>
+
+  <input type="text" formControlName="author" />
+  <div>
+    <label for="">Add Price</label>
+  </div>
+
+  <input type="text" formControlName="cost" />
+  <button>Submit</button>
+</form>

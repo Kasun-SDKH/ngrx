@@ -1,0 +1,15 @@
+<p>home works!</p>
+
+<div class="adddata">
+  <p>Add Data to form</p>
+
+  <button routerLink="/add">Add</button>
+</div>
+
+<div *ngFor="let book of books$ | async">
+  <h2>{{ book.title }}</h2>
+  <p>{{ book.author }}</p>
+  <p>{{ book.cost }}</p>
+  <button type="button" [routerLink]="'/edit/' + book.id">edit</button>
+  <button (click)="onDelete(book.id)">Delete</button>
+</div>
